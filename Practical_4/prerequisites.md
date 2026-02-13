@@ -48,5 +48,4 @@ ng serve
 Open browser and type:
 ```bash
 http://localhost:4200
-.
-```
+.....```
