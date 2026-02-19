@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>AngularJS Controllers</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+
+<body>
+
+<!-- Parent Controller -->
+<div ng-controller="parentController">
+
+    <h2>Parent Controller</h2>
+    {{ parentMessage }}
+
+    <hr>
+
+    <!-- Student Controller -->
+    <div ng-controller="studentController">
+
+        <h3>Student Details</h3>
+        Name: {{ student.name }} <br>
+        Roll No: {{ student.roll }} <br>
+        Marks: {{ student.marks }}
+
+        <hr>
+
+        <!-- Child Controller -->
+        <div ng-controller="childController">
+            <h3>Child Controller</h3>
+            {{ childMessage }}
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    var app = angular.module("myApp", []);
+
+    app.controller("parentController", function($scope) {
+        $scope.parentMessage = "Hello from Parent Controller";
+    });
+
+    app.controller("studentController", function($scope) {
+        $scope.student = {
+            name: "Amit",
+            roll: 12,
+            marks: 85
+        };
+    });
+
+    app.controller("childController", function($scope) {
+        $scope.childMessage = "Hello from Child Controller";
+    });
+</script>
+
+</body>
+</html>
