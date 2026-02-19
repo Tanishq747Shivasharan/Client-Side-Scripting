@@ -1,0 +1,27 @@
+<h2>Registration Form</h2>
+
+<form (ngSubmit)="onSubmit()">
+    Name:
+    <input type="text" name="name" [(ngModel)]="user.name">
+    <br><br>
+    
+    Email:
+    <input type="email" name="email" [(ngModel)]="user.email">
+    <br><br>
+    
+    Password:
+    <input type="password" name="password" [(ngModel)]="user.password">
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<hr>
+
+<div *ngIf="submitted">
+    <h3>Entered Details</h3>
+    <p>Name: {{user.name}}</p>
+    <p>Email: {{user.email}}</p>
+    <p>Password: {{user.password}}</p>
+</div>
