@@ -29,7 +29,7 @@ function App() {
     if (!formData.course) {
       newErrors.course = "Please select a course";
     }
-    return newErrors;
+    return newErrors; 
   };
   const handleSubmit = (e) => {
     e.preventDefault();
