@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngularJS Filters PRQ-8_2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-controller="currencyCtrl">
+    <h2>AngularJS Filters PRQ-8_2</h2>
+    <h3>Enter Amount</h3>
+    Enter amount to be displayed: <input type="digit" ng-model="currency.amount"><br><br>
+    Entered Amount is: {{currency.finalAmt() | currency:'₹'}}<br>
+
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('currencyCtrl', function($scope) {
+            $scope.currency = {
+                amount: ''
+            };
+            $scope.currency.finalAmt = function() {
+                return $scope.currency.amount;
+            };
+        });
+    </script>
+</body>
+</html>

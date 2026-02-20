@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngularJS Filters PRQ-8_2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-controller="dateCtrl">
+    <h3>Current Date</h3>
+    Today in MM/DD/YYYY: {{ today | date:'MM/dd/yyyy' }}<br>
+
+    <p>Other formats:</p>
+    Short: {{ today | date:'shortDate' }}<br>
+    Full: {{ today | date:'fullDate' }}
+
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('dateCtrl', function($scope) {
+            $scope.today = new Date();
+        });
+    </script>
+</body>
+</html>
