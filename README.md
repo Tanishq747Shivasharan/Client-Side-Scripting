@@ -13,82 +13,82 @@
 
 ---
 
-## 📋 Overview
+##  Overview
 
 This repository contains comprehensive practical implementations for the MSBTE Diploma course in Client-Side Scripting. It features 19 structured laboratory exercises covering HTML, JavaScript, AngularJS, Angular, and React frameworks, designed to build proficiency in modern web development.
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 Upon completion of these practicals, students will be able to:
 
-- ✅ Develop interactive web pages using client-side scripting technologies
-- ✅ Design dynamic single-page applications using Angular framework
-- ✅ Implement AngularJS features including filters, controllers, and event handling
-- ✅ Build modern React-based user interfaces with state management
-- ✅ Apply form validation and event handling in web applications
-- ✅ Understand component lifecycle and data binding patterns
+-  Develop interactive web pages using client-side scripting technologies
+-  Design dynamic single-page applications using Angular framework
+-  Implement AngularJS features including filters, controllers, and event handling
+-  Build modern React-based user interfaces with state management
+-  Apply form validation and event handling in web applications
+-  Understand component lifecycle and data binding patterns
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 Client-Side-Scripting/
 │
-├── 📄 316005.pdf                    # MSBTE Laboratory Manual
-├── 📄 README.md                     # Project Documentation
+├──  316005.pdf                    # MSBTE Laboratory Manual
+├──  README.md                     # Project Documentation
 │
-├── 📁 Practical_01/                 # Console & Document Output
-├── 📁 Practical_02/                 # PyScript Integration
-├── 📁 Practical_03/                 # JSON Object Handling
+├──  Practical_01/                 # Console & Document Output
+├──  Practical_02/                 # PyScript Integration
+├──  Practical_03/                 # JSON Object Handling
 │
-├── 📁 Practical_04/                 # Angular Setup & Basics
+├──  Practical_04/                 # Angular Setup & Basics
 │   ├── prerequisites.md
 │   └── ngmyNewApp/
 │
-├── 📁 Practical_05/                 # AngularJS Form Validation
+├──  Practical_05/                 # AngularJS Form Validation
 │   └── formApp/
 │
-├── 📁 Practical_06/                 # Data Model-View Binding
+├──  Practical_06/                 # Data Model-View Binding
 │   └── data-model-view/
 │
-├── 📁 Practical_07/                 # Two-Way Data Binding
+├──  Practical_07/                 # Two-Way Data Binding
 │   ├── two-way-data-binding/
 │   └── registration-form/
 │
-├── 📁 Practical_08/                 # AngularJS Filters
-├── 📁 Practical_09/                 # Event Handling
+├──  Practical_08/                 # AngularJS Filters
+├──  Practical_09/                 # Event Handling
 │   └── events/
 │
-├── 📁 Practical_10/                 # Table Rendering
+├──  Practical_10/                 # Table Rendering
 │   └── Table/
 │
-├── 📁 Practical_11/                 # Table Styling
+├──  Practical_11/                 # Table Styling
 │   └── Table-Style/
 │
-├── 📁 Practical_12/                 # AngularJS Controllers
-├── 📁 Practical_13/                 # External Controllers
+├──  Practical_12/                 # AngularJS Controllers
+├──  Practical_13/                 # External Controllers
 │
-├── 📁 Practical_14/                 # React Fundamentals
+├──  Practical_14/                 # React Fundamentals
 │   └── myreactapp/
 │
-├── 📁 Practical_15/                 # React Components
+├──  Practical_15/                 # React Components
 │   └── reactcomponent/
 │
-├── 📁 Practical_16/                 # React Lifecycle
+├──  Practical_16/                 # React Lifecycle
 │   └── reactlifecycle/
 │
-├── 📁 Practical_17/                 # React Hooks
+├──  Practical_17/                 # React Hooks
 │   └── reacthooks/
 │
-├── 📁 Practical_18/                 # React Forms
+├──  Practical_18/                 # React Forms
 │   └── form/
 │
-└── 📁 Practical_19/                 # React Form Validation
+└──  Practical_19/                 # React Form Validation
     ├── reactvalidation/
     ├── 19.1/19.1/
     └── 19.2/19.2/
 ```
 
-## 📚 Practical Index
+##  Practical Index
 
 | # | Topic | Technology | Description |
 |---|-------|-----------|-------------|
@@ -121,7 +121,7 @@ Client-Side-Scripting/
 | **Build Tools** | Angular CLI, Create React App |
 | **Additional** | PyScript 2025.8.1 |
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -166,7 +166,7 @@ npm start
 
 Access at: `http://localhost:3000`
 
-## 💡 Key Features
+##  Key Features
 
 - **Modular Structure**: Each practical is self-contained for easy navigation
 - **Progressive Learning**: Concepts build upon previous exercises
@@ -174,7 +174,7 @@ Access at: `http://localhost:3000`
 - **Industry Standards**: Follows best practices and coding conventions
 - **Hands-On Practice**: Real-world scenarios and implementations
 
-## 📖 Documentation
+##  Documentation
 
 - **Laboratory Manual**: Refer to `316005.pdf` for detailed practical instructions
 - **Prerequisites**: Check individual `prerequisites.md` files in practical folders
@@ -192,14 +192,14 @@ This repository is maintained for educational purposes. Suggestions and improvem
 3. Commit your changes
 4. Submit a pull request
 
-## 📝 Notes
+##  Notes
 
 - Angular projects use standalone component architecture
 - React projects are based on Create React App template
 - AngularJS practicals use CDN for lightweight demonstration
 - Some practicals include multiple implementation variants
 
-## 📄 License
+##  License
 
 This project is developed for educational purposes as part of the MSBTE curriculum.
 
@@ -209,6 +209,6 @@ This project is developed for educational purposes as part of the MSBTE curricul
 
 **Developed for MSBTE Diploma Students**
 
-*Happy Coding! 🚀*
+*Happy Coding! *
 
 </div>
