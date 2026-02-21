@@ -1,197 +1,214 @@
-# Client-Side-Scripting
+# Client-Side Scripting Laboratory
 
-## Introduction
-This repository contains a structured implementation set for the MSBTE Diploma course **Client Side Scripting (Course Code: 316005, K-Scheme, Semester VI)**. The work aligns with the laboratory orientation defined in `316005.pdf`, with practical exercises implemented using HTML, JavaScript, AngularJS, modern Angular, and React.
+<div align="center">
 
-The repository is organized as practical-wise folders (`Practical_01` through `Practical_19`) to support laboratory execution, demonstration, and revision.
+**MSBTE Diploma Course | Course Code: 316005 | K-Scheme | Semester VI**
 
-## Objectives
-The implemented practicals are intended to support the core course outcomes reflected in the MSBTE laboratory manual:
+[![Angular](https://img.shields.io/badge/Angular-21.x-red?logo=angular)](https://angular.io/)
+[![React](https://img.shields.io/badge/React-19.2.4-blue?logo=react)](https://reactjs.org/)
+[![AngularJS](https://img.shields.io/badge/AngularJS-1.8.2-red)](https://angularjs.org/)
+[![License](https://img.shields.io/badge/License-Educational-green)]()
 
-- Develop web pages using client-side scripting.
-- Design dynamic pages using Angular-based approaches.
-- Apply built-in AngularJS features such as filters, controllers, and events.
-- Develop React-based user interfaces and forms.
-- Implement event handling and input validation in React applications.
+</div>
 
-## Repository Scope
-Based on the current directory contents, this repository includes implementations for:
+---
 
-- Practicals **1 to 19** (with additional variants under `Practical_19/19.1` and `Practical_19/19.2`).
-- Standalone HTML/AngularJS exercises.
-- Multiple Angular standalone applications.
-- Multiple React (Create React App) applications.
+## 📋 Overview
 
-Scope note against `316005.pdf`:
+This repository contains comprehensive practical implementations for the MSBTE Diploma course in Client-Side Scripting. It features 19 structured laboratory exercises covering HTML, JavaScript, AngularJS, Angular, and React frameworks, designed to build proficiency in modern web development.
 
-- The manual lists practicals up to 23 (including list manipulation, CSS approaches in React, and microproject guidance).
-- The present repository is focused on practical implementations up to Practical 19, with additional validation variants.
+## 🎯 Learning Outcomes
 
-## Features
-- Practical-wise folder structure for direct mapping to lab assignments.
-- Coverage of foundational client-side scripting topics:
-  - Console/document/alert output
-  - JSON object creation and access
-  - PyScript browser execution
-- AngularJS-focused exercises:
-  - Form validation
-  - Filters
-  - Controllers and external controller files
-- Angular (standalone component) exercises:
-  - Data model-view display
-  - Two-way binding
-  - Event handling
-  - Data table rendering and table styling
-- React exercises:
-  - Controlled forms
-  - Parent-to-child function argument flow
-  - Class lifecycle usage
-  - `useState`-based state management
-  - Real-time form preview
-  - Form validation scenarios
+Upon completion of these practicals, students will be able to:
 
-## Directory Structure
-```text
+- ✅ Develop interactive web pages using client-side scripting technologies
+- ✅ Design dynamic single-page applications using Angular framework
+- ✅ Implement AngularJS features including filters, controllers, and event handling
+- ✅ Build modern React-based user interfaces with state management
+- ✅ Apply form validation and event handling in web applications
+- ✅ Understand component lifecycle and data binding patterns
+
+## 🗂️ Repository Structure
+
+```
 Client-Side-Scripting/
-|- 316005.pdf
-|- README.md
-|- Practical_01/
-|- Practical_02/
-|- Practical_03/
-|- Practical_04/
-|  |- prerequisites.md
-|  `- ngmyNewApp/           (Angular)
-|- Practical_05/
-|  `- formApp/              (Angular app hosting AngularJS form page)
-|- Practical_06/
-|  `- data-model-view/      (Angular)
-|- Practical_07/
-|  |- two-way-data-binding/ (Angular)
-|  `- registration-form/    (Angular)
-|- Practical_08/            (AngularJS filter pages)
-|- Practical_09/
-|  `- events/               (Angular)
-|- Practical_10/
-|  `- Table/                (Angular)
-|- Practical_11/
-|  `- Table-Style/          (Angular)
-|- Practical_12/            (AngularJS controllers)
-|- Practical_13/            (AngularJS external controller)
-|- Practical_14/
-|  `- myreactapp/           (React)
-|- Practical_15/
-|  `- reactcomponent/       (React)
-|- Practical_16/
-|  `- reactlifecycle/       (React)
-|- Practical_17/
-|  `- reacthooks/           (React)
-|- Practical_18/
-|  `- form/                 (React)
-`- Practical_19/
-   |- reactvalidation/      (React)
-   |- 19.1/19.1/            (React validation variant)
-   `- 19.2/19.2/            (React validation variant)
+│
+├── 📄 316005.pdf                    # MSBTE Laboratory Manual
+├── 📄 README.md                     # Project Documentation
+│
+├── 📁 Practical_01/                 # Console & Document Output
+├── 📁 Practical_02/                 # PyScript Integration
+├── 📁 Practical_03/                 # JSON Object Handling
+│
+├── 📁 Practical_04/                 # Angular Setup & Basics
+│   ├── prerequisites.md
+│   └── ngmyNewApp/
+│
+├── 📁 Practical_05/                 # AngularJS Form Validation
+│   └── formApp/
+│
+├── 📁 Practical_06/                 # Data Model-View Binding
+│   └── data-model-view/
+│
+├── 📁 Practical_07/                 # Two-Way Data Binding
+│   ├── two-way-data-binding/
+│   └── registration-form/
+│
+├── 📁 Practical_08/                 # AngularJS Filters
+├── 📁 Practical_09/                 # Event Handling
+│   └── events/
+│
+├── 📁 Practical_10/                 # Table Rendering
+│   └── Table/
+│
+├── 📁 Practical_11/                 # Table Styling
+│   └── Table-Style/
+│
+├── 📁 Practical_12/                 # AngularJS Controllers
+├── 📁 Practical_13/                 # External Controllers
+│
+├── 📁 Practical_14/                 # React Fundamentals
+│   └── myreactapp/
+│
+├── 📁 Practical_15/                 # React Components
+│   └── reactcomponent/
+│
+├── 📁 Practical_16/                 # React Lifecycle
+│   └── reactlifecycle/
+│
+├── 📁 Practical_17/                 # React Hooks
+│   └── reacthooks/
+│
+├── 📁 Practical_18/                 # React Forms
+│   └── form/
+│
+└── 📁 Practical_19/                 # React Form Validation
+    ├── reactvalidation/
+    ├── 19.1/19.1/
+    └── 19.2/19.2/
 ```
 
-## Practical Mapping
-1. Hello World (`console.log`, `document.write`, `alert`)  
-2. Welcome output using PyScript  
-3. JSON object creation and display  
-4. Angular setup prerequisite and Good Morning page  
-5. AngularJS form controls and validation  
-6. Data model-view binding  
-7. Two-way data binding (plus registration-form implementation)  
-8. AngularJS filters (including additional filter examples)  
-9. Event handling  
-10. Table rendering  
-11. Table styling (including odd/even row styling)  
-12. AngularJS controllers (parent/child/student)  
-13. External controller file usage  
-14. React form handling  
-15. Passing function argument into React component  
-16. React lifecycle demonstration  
-17. React Hooks state handling (`useState`)  
-18. Real-time React form behavior  
-19. React form validations (with additional validation variants)
+## 📚 Practical Index
 
-## Technology Stack
-- HTML5, CSS3, JavaScript (ES6+)
-- AngularJS `1.8.2` (CDN-based pages)
-- Angular `21.x` (standalone application pattern in practical projects)
-- React `19.2.4` with `react-scripts 5.0.1`
-- PyScript `2025.8.1` (Practical 02)
+| # | Topic | Technology | Description |
+|---|-------|-----------|-------------|
+| 01 | Hello World | JavaScript | Console, document.write, alert methods |
+| 02 | PyScript | PyScript | Python in browser execution |
+| 03 | JSON Objects | JavaScript | Object creation and manipulation |
+| 04 | Angular Setup | Angular | Environment setup and first app |
+| 05 | Form Controls | AngularJS | Input validation and form handling |
+| 06 | Data Binding | Angular | Model-view synchronization |
+| 07 | Two-Way Binding | Angular | Bidirectional data flow |
+| 08 | Filters | AngularJS | Data transformation and formatting |
+| 09 | Event Handling | Angular | User interaction management |
+| 10 | Table Rendering | Angular | Dynamic table generation |
+| 11 | Table Styling | Angular | CSS styling and conditional classes |
+| 12 | Controllers | AngularJS | Application logic organization |
+| 13 | External Controllers | AngularJS | Modular controller architecture |
+| 14 | React Basics | React | Component creation and props |
+| 15 | Component Props | React | Parent-child communication |
+| 16 | Lifecycle Methods | React | Component lifecycle hooks |
+| 17 | React Hooks | React | useState and modern patterns |
+| 18 | Form Handling | React | Controlled components |
+| 19 | Form Validation | React | Input validation patterns |
 
-## Prerequisites
-- Node.js and npm (required for Angular and React subprojects)
-- Angular CLI (required for Angular practical projects)
-- Modern browser with internet access (required for CDN dependencies such as AngularJS and PyScript)
+## 🛠️ Technology Stack
 
-## Installation and Execution
-### A. Standalone HTML / AngularJS practicals
-Use for folders such as `Practical_01`, `Practical_02`, `Practical_03`, `Practical_08`, `Practical_12`, `Practical_13`.
+| Category | Technologies |
+|----------|-------------|
+| **Core** | HTML5, CSS3, JavaScript (ES6+) |
+| **Frameworks** | AngularJS 1.8.2, Angular 21.x, React 19.2.4 |
+| **Build Tools** | Angular CLI, Create React App |
+| **Additional** | PyScript 2025.8.1 |
 
-1. Open the required `.html` file in a browser.
-2. Ensure internet connectivity for external CDN links.
+## 🚀 Getting Started
 
-### B. Angular practical applications
-Use for projects under:
-- `Practical_04/ngmyNewApp`
-- `Practical_05/formApp`
-- `Practical_06/data-model-view`
-- `Practical_07/two-way-data-binding`
-- `Practical_07/registration-form`
-- `Practical_09/events`
-- `Practical_10/Table`
-- `Practical_11/Table-Style`
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** (v18 or higher) - [Download](https://nodejs.org/)
+- **npm** (comes with Node.js)
+- **Angular CLI** (for Angular projects)
+  ```bash
+  npm install -g @angular/cli
+  ```
+- Modern web browser (Chrome, Firefox, Edge)
+
+### Installation & Execution
+
+#### For HTML/AngularJS Practicals
+*Applies to: Practical 01, 02, 03, 08, 12, 13*
+
+1. Navigate to the practical folder
+2. Open the `.html` file in your browser
+3. Ensure internet connectivity for CDN resources
+
+#### For Angular Applications
+*Applies to: Practical 04-07, 09-11*
 
 ```bash
-cd <angular-project-folder>
+cd Practical_XX/<project-folder>
 npm install
 npm start
 ```
 
-Default local URL: `http://localhost:4200`
+Access at: `http://localhost:4200`
 
-### C. React practical applications
-Use for projects under:
-- `Practical_14/myreactapp`
-- `Practical_15/reactcomponent`
-- `Practical_16/reactlifecycle`
-- `Practical_17/reacthooks`
-- `Practical_18/form`
-- `Practical_19/reactvalidation`
-- `Practical_19/19.1/19.1`
-- `Practical_19/19.2/19.2`
+#### For React Applications
+*Applies to: Practical 14-19*
 
 ```bash
-cd <react-project-folder>
+cd Practical_XX/<project-folder>
 npm install
 npm start
 ```
 
-Default local URL: `http://localhost:3000`
+Access at: `http://localhost:3000`
 
-## Implementation Notes
-- Several Angular projects follow modern Angular standalone conventions while embedding course-oriented practical logic in `src/app/app.html` and related component files.
-- AngularJS practicals are intentionally lightweight and file-based for direct lab demonstration.
-- React practicals are organized as independent Create React App projects, each focused on one topic.
-- Some subdirectories may contain generated tooling artifacts (for example, dependency caches) depending on local execution history.
+## 💡 Key Features
 
-## Alignment with 316005 Laboratory Manual
-Analysis of `316005.pdf` indicates emphasis on:
+- **Modular Structure**: Each practical is self-contained for easy navigation
+- **Progressive Learning**: Concepts build upon previous exercises
+- **Framework Diversity**: Exposure to multiple modern frameworks
+- **Industry Standards**: Follows best practices and coding conventions
+- **Hands-On Practice**: Real-world scenarios and implementations
 
-- Outcome-based practical execution.
-- Industry-relevant skills: client-side UI behavior, DOM interaction, form validation, and modern framework usage.
-- Practical progression from scripting fundamentals to framework-based development.
+## 📖 Documentation
 
-The repository implementation reflects this progression in a practical-first structure suitable for laboratory submission support and technical revision.
+- **Laboratory Manual**: Refer to `316005.pdf` for detailed practical instructions
+- **Prerequisites**: Check individual `prerequisites.md` files in practical folders
+- **Framework Docs**:
+  - [Angular Documentation](https://angular.io/docs)
+  - [React Documentation](https://react.dev/)
+  - [AngularJS Guide](https://docs.angularjs.org/guide)
 
-## References
-- MSBTE Laboratory Manual: `316005.pdf`
-- AngularJS CDN documentation and examples
-- Angular CLI and Angular framework documentation
-- React documentation and Create React App toolchain documentation
+## 🤝 Contributing
 
-## License
-No explicit license file is currently present in this repository.
+This repository is maintained for educational purposes. Suggestions and improvements are welcome:
 
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Submit a pull request
+
+## 📝 Notes
+
+- Angular projects use standalone component architecture
+- React projects are based on Create React App template
+- AngularJS practicals use CDN for lightweight demonstration
+- Some practicals include multiple implementation variants
+
+## 📄 License
+
+This project is developed for educational purposes as part of the MSBTE curriculum.
+
+---
+
+<div align="center">
+
+**Developed for MSBTE Diploma Students**
+
+*Happy Coding! 🚀*
+
+</div>
