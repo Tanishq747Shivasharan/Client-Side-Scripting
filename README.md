@@ -13,7 +13,7 @@
 
 ---
 
-##  Overview
+## Overview
 
 This repository contains comprehensive practical implementations for the MSBTE Diploma course in Client-Side Scripting. It features 19 structured laboratory exercises covering HTML, JavaScript, AngularJS, Angular, and React frameworks, designed to build proficiency in modern web development.
 
@@ -33,8 +33,8 @@ Upon completion of these practicals, students will be able to:
 ```
 Client-Side-Scripting/
 │
-├──  316005.pdf                    # MSBTE Laboratory Manual
-├──  README.md                     # Project Documentation
+├── 316005.pdf                    # MSBTE Laboratory Manual
+├── README.md                     # Project Documentation
 │
 ├──  Practical_01/                 # Console & Document Output
 ├──  Practical_02/                 # PyScript Integration
@@ -112,7 +112,7 @@ Client-Side-Scripting/
 | 18 | Form Handling | React | Controlled components |
 | 19 | Form Validation | React | Input validation patterns |
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Category | Technologies |
 |----------|-------------|
@@ -121,7 +121,7 @@ Client-Side-Scripting/
 | **Build Tools** | Angular CLI, Create React App |
 | **Additional** | PyScript 2025.8.1 |
 
-##  Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -148,25 +148,33 @@ Ensure you have the following installed:
 *Applies to: Practical 04-07, 09-11*
 
 ```bash
-cd Practical_XX/<project-folder>
+cd <angular-project-folder>
 npm install
 npm start
 ```
 
-Access at: `http://localhost:4200`
+Default local URL: `http://localhost:4200`
 
-#### For React Applications
-*Applies to: Practical 14-19*
+### C. React practical applications
+Use for projects under:
+- `Practical_14/myreactapp`
+- `Practical_15/reactcomponent`
+- `Practical_16/reactlifecycle`
+- `Practical_17/reacthooks`
+- `Practical_18/form`
+- `Practical_19/reactvalidation`
+- `Practical_19/19.1/19.1`
+- `Practical_19/19.2/19.2`
 
 ```bash
-cd Practical_XX/<project-folder>
+cd <react-project-folder>
 npm install
 npm start
 ```
 
-Access at: `http://localhost:3000`
+Default local URL: `http://localhost:3000`
 
-##  Key Features
+## Key Features
 
 - **Modular Structure**: Each practical is self-contained for easy navigation
 - **Progressive Learning**: Concepts build upon previous exercises
@@ -174,7 +182,7 @@ Access at: `http://localhost:3000`
 - **Industry Standards**: Follows best practices and coding conventions
 - **Hands-On Practice**: Real-world scenarios and implementations
 
-##  Documentation
+## Documentation
 
 - **Laboratory Manual**: Refer to `316005.pdf` for detailed practical instructions
 - **Prerequisites**: Check individual `prerequisites.md` files in practical folders
@@ -183,7 +191,7 @@ Access at: `http://localhost:3000`
   - [React Documentation](https://react.dev/)
   - [AngularJS Guide](https://docs.angularjs.org/guide)
 
-## 🤝 Contributing
+## Contributing
 
 This repository is maintained for educational purposes. Suggestions and improvements are welcome:
 
@@ -199,7 +207,7 @@ This repository is maintained for educational purposes. Suggestions and improvem
 - AngularJS practicals use CDN for lightweight demonstration
 - Some practicals include multiple implementation variants
 
-##  License
+## License
 
 This project is developed for educational purposes as part of the MSBTE curriculum.
 
@@ -209,6 +217,6 @@ This project is developed for educational purposes as part of the MSBTE curricul
 
 **Developed for MSBTE Diploma Students**
 
-*Happy Coding! *
+*Happy Coding!*
 
 </div>
