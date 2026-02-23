@@ -1,0 +1,103 @@
+/* Page Background */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(135deg, #1881cc, #d0b3ff);
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Form Container */
+form {
+  width: 450px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background-color: #ceb1f2;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #1976d2;
+  margin-top: 30px;
+}
+
+/* Labels */
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+  border-color: #1976d2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(25, 118, 210, 0.3);
+}
+
+/* Radio & Checkbox spacing */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Error Messages */
+div {
+  color: rgb(16, 12, 12);
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+/* Submit Button */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #1976d2;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #125aa0;
+}
+
+/* Success Output Section */
+hr {
+  margin-top: 40px;
+}
+
+h3 {
+  text-align: center;
+  color: green;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  width: 450px;
+  margin: 0 auto 40px auto;
+}
