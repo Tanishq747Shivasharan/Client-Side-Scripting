@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html ng-app="examApp">
+
+<head>
+    <title>Student Exam Registration</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+</head>
+
+<body ng-controller="examCtrl">
+
+    <h2>Student Exam Registration Form</h2>
+
+    <form name="examForm" novalidate ng-submit="submitForm()">
+
+        <!-- Student Name -->
+        <label>Name:</label>
+        <input type="text"
+               name="studentName"
+               ng-model="student.name"
+               required>
+
+        <span ng-show="examForm.studentName.$touched && examForm.studentName.$invalid">
+            Name is required.
+        </span>
+
+        <br><br>
+
+        <!-- Roll Number -->
+        <label>Roll No:</label>
+        <input type="number"
+               name="rollNo"
+               ng-model="student.rollNo"
+               required>
+
+        <span ng-show="examForm.rollNo.$touched && examForm.rollNo.$invalid">
+            Roll Number is required.
+        </span>
+
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email"
+               name="email"
+               ng-model="student.email"
+               required>
+
+        <span ng-show="examForm.email.$touched && examForm.email.$invalid">
+            Valid Email is required.
+        </span>
+
+        <br><br>
+
+        <!-- Course -->
+        <label>Course:</label>
+        <select name="course"
+                ng-model="student.course"
+                required>
+            <option value="">Select Course</option>
+            <option>Computer Engineering</option>
+            <option>IT</option>
+            <option>Mechanical</option>
+        </select>
+
+        <span ng-show="examForm.course.$touched && examForm.course.$invalid">
+            Course is required.
+        </span>
+
+        <br><br>
+
+        <!-- Semester -->
+        <label>Semester:</label>
+        <input type="radio"
+               name="semester"
+               ng-model="student.semester"
+               value="Sem 1" required> Sem 1
+
+        <input type="radio"
+               name="semester"
+               ng-model="student.semester"
+               value="Sem 2"> Sem 2
+
+        <span ng-show="examForm.semester.$touched && examForm.semester.$invalid">
+            Semester is required.
+        </span>
+
+        <br><br>
+
+        <!-- Subjects -->
+        <label>Subjects:</label>
+        <input type="checkbox" ng-model="student.subjects.math"> Math
+        <input type="checkbox" ng-model="student.subjects.os"> OS
+        <input type="checkbox" ng-model="student.subjects.dbms"> DBMS
+
+        <br><br>
+
+        <!-- Password -->
+        <label>Password:</label>
+        <input type="password"
+               name="password"
+               ng-model="student.password"
+               ng-minlength="6"
+               required>
+
+        <span ng-show="examForm.password.$touched && examForm.password.$error.required">
+            Password is required.
+        </span>
+
+        <span ng-show="examForm.password.$touched && examForm.password.$error.minlength">
+            Minimum 6 characters required.
+        </span>
+
+        <br><br>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <hr>
+
+    <!-- Display Data -->
+    <div ng-show="submitted">
+        <h3>Registration Details</h3>
+        <p>Name: {{student.name}}</p>
+        <p>Roll No: {{student.rollNo}}</p>
+        <p>Email: {{student.email}}</p>
+        <p>Course: {{student.course}}</p>
+        <p>Semester: {{student.semester}}</p>
+    </div>
+
+</body>
+</html>
