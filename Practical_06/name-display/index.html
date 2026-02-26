@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Table</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        .odd-row {
+            background-color: #f2f2f2;
+        }
+        .even-row {
+            background-color: #d9edf7;
+        }
+    </style>
+</head>
+<body ng-app="myApp" ng-controller="studentCtrl">
+    <h2>Student Data</h2>
+    <table>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+        <tr ng-repeat="student in students"
+            ng-class-odd="'odd-row'"
+            ng-class-even="'even-row'">
+            <td>{{ student.roll }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.marks }}</td>
+        </tr>
+    </table>
+
+    <script>
+        var app = angular.module("myApp", []);
+
+        app.controller("studentCtrl", function($scope) {
+            $scope.students = [
+                { roll:1, name:"Amit", marks:85 },
+                { roll:2, name:"Amit", marks:85 },
+                { roll:3, name:"Amit", marks:85 },
+                { roll:4, name:"Amit", marks:85 },
+                { roll:5, name:"Amit", marks:85 },
+                { roll:6, name:"Amit", marks:85 },
+                { roll:7, name:"Amit", marks:85 },
+                { roll:8, name:"Amit", marks:85 },
+                { roll:9, name:"Amit", marks:85 },
+                { roll:10, name:"Amit", marks:85 }
+            ];
+        });
+    </script>
+    
+</body>
+</html>
