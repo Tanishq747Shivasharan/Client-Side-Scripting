@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse Coordinates</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-controller="myCtrl">
+
+    <div 
+        style="width:400px;height:200px;border:2px solid black;"
+        ng-mousemove="showCoords($event)"
+        ng-click="showCoords($event)"
+        ng-mousedown="showCoords($event)"
+        ng-mouseup="showCoords($event)">
+        
+        Move or Click Inside This Box
+    </div>
+
+    <p>X Coordinate: {{x}}</p>
+    <p>Y Coordinate: {{y}}</p>
+
+<script>
+    var app = angular.module("myApp", []);
+    app.controller("myCtrl", function($scope) {
+        $scope.x = 0;
+        $scope.y = 0;
+
+        $scope.showCoords = function(event) {
+            $scope.x = event.clientX;
+            $scope.y = event.clientY;
+        };
+    });
+</script>
+
+</body>
+</html>z`
