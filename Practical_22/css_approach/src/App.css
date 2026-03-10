@@ -1,0 +1,20 @@
+.heading{
+color:green;
+font-size:28px;
+}
+
+.paragraph{
+font-size:18px;
+color:#444;
+margin-top:10px;
+}
+
+.button{
+background-color:orange;
+border:none;
+padding:10px 20px;
+color:white;
+font-size:16px;
+cursor:pointer;
+margin-top:10px;
+}
