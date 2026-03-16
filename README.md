@@ -15,7 +15,7 @@
 
 ## Overview
 
-This repository contains comprehensive practical implementations for the MSBTE Diploma course in Client-Side Scripting. It features 19 structured laboratory exercises covering HTML, JavaScript, AngularJS, Angular, and React frameworks, designed to build proficiency in modern web development.
+This repository contains comprehensive practical implementations for the MSBTE Diploma course in Client-Side Scripting. It features 23 structured laboratory exercises covering HTML, JavaScript, AngularJS, Angular, and React frameworks, designed to build proficiency in modern web development.
 
 ##  Learning Outcomes
 
@@ -82,10 +82,22 @@ Client-Side-Scripting/
 ├──  Practical_18/                 # React Forms
 │   └── form/
 │
-└──  Practical_19/                 # React Form Validation
-    ├── reactvalidation/
-    ├── 19.1/19.1/
-    └── 19.2/19.2/
+├──  Practical_19/                 # React Form Validation
+│   ├── reactvalidation/
+│   ├── 19.1/19.1/
+│   └── 19.2/19.2/
+│
+├──  Practical_20/                 # React Keys & List Manipulation
+│   └── keymanipulation/
+│
+├──  Practical_21/                 # React List Rendering
+│   └── render_using_map/
+│
+├──  Practical_22/                 # React Styling Approaches
+│   └── css_approach/
+│
+└──  Practical_23/                 # React Music Player
+    └── music-player/
 ```
 
 ##  Practical Index
@@ -111,6 +123,10 @@ Client-Side-Scripting/
 | 17 | React Hooks | React | useState and modern patterns |
 | 18 | Form Handling | React | Controlled components |
 | 19 | Form Validation | React | Input validation patterns |
+| 20 | List Keys | React | Dynamic list manipulation with keys |
+| 21 | List Rendering | React | Array mapping and dynamic rendering |
+| 22 | Styling Methods | React | Inline, Stylesheets, and CSS Modules |
+| 23 | Music Player | React | Functional interactive media player |
 
 ## Technology Stack
 
@@ -165,6 +181,10 @@ Use for projects under:
 - `Practical_19/reactvalidation`
 - `Practical_19/19.1/19.1`
 - `Practical_19/19.2/19.2`
+- `Practical_20/keymanipulation`
+- `Practical_21/render_using_map`
+- `Practical_22/css_approach`
+- `Practical_23/music-player`
 
 ```bash
 cd <react-project-folder>
