@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Player from "./Player";
 import "./App.css";
+import List from "./list";
 
 const tracks = [
   {
@@ -36,11 +37,12 @@ export default function App() {
 
   return (
     <div className="app">
-      <Player
+      {/* <Player
         track={tracks[index]}
         next={next}
         prev={prev}
-      />
+      /> */}
+      <List/>
     </div>
   );
 }
