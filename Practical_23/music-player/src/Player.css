@@ -1,6 +1,6 @@
 .player{
 
-  background:#181818;
+  background:#000000;
   padding:40px;
   border-radius:20px;
   width:320px;
@@ -9,7 +9,7 @@
 
   color:white;
 
-  box-shadow:0 10px 30px rgba(0,0,0,0.5);
+  box-shadow:0 10px 30px rgba(69, 181, 113, 0.5);
 
 }
 
