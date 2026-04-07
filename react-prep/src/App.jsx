@@ -1,44 +1,30 @@
-// Import useState Hook to store and update data
-import { useState, useEffect } from "react";
+import styles from "./styles.module.css"
+import "./App.css"
 
-// Create main component 
 function App() {
   
-  // Create state variable userName, initially empty
-  const [count, setCount] = useState(0)
-
-  useEffect(function() {
-    document.title = `Count: ${count}`
-  },[count])
-
-  // Function to handle increment button
-  function handleIncrement() {
-    setCount(count + 1)
+  // Create inline style object
+  const inlineStyle = {
+    color: "white",
+    backgroundColor: "blue",
+    padding: "10px"
   }
-  
-  // Function to handle decrement button
-  function handleDecrement() {
-    if (count == 0){
-      setCount(count)
-    }
-    else{
-      setCount(count - 1)
-    }
-  }
-  
-  // return statement to return jsx to the page
+
   return (
     <div>
-      <h2>Counter app React States</h2>
 
-      <h1>{count}</h1>
-      
-      <button onClick={handleIncrement}>Increment</button>
-      <button onClick={handleDecrement}>Decrement</button>
+      <h2>inline style</h2>
+      <p style={inlineStyle}>This is inline styled text</p>
+
+      <h2>External CSS</h2>
+      <p className="externalStyle">This is external CSS</p>
+
+      <h2>CSS Module</h2>
+      <p className={styles.moduleStyle}>This is module CSS</p>
+
     </div>
   );
 
 }
 
-// export the function App
 export default App
